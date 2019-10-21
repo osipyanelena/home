@@ -1,0 +1,96 @@
+body {
+	/*Used to specify the background image of all webpages.*/
+	background: lightpink url("image.png") no-repeat fixed center;
+}
+
+.active {
+	/*(Background colour of "Home" button.)*/
+	background-color: #ebe0e0;
+}
+
+a:link {
+	/*Specifies the features of an unopen link.*/
+	font-family: Arial, Helvetica, sans-serif;
+	/*Specifies the available fonts to the browser.*/
+	color: #ae6b6b;
+	text-decoration: none;
+}
+
+a:visited {
+	/*Specifies the features of an edited link.*/
+	color: #ae6b6b;
+}
+
+a:hover {
+	/*Specifies the features of hovering your cursor over a link, such as its changed colour and the link's letters bolding.*/
+	background: #d99699;
+	font-weight: bold;
+}
+
+div {
+	/*Taskbar features.*/
+	background-color: #f1c9c9;
+	/*Background colour of the taskbar.*/
+	border: 6px solid gray;
+	padding: 8px;
+	/*Specifies the width of the taskbar.*/
+}
+
+h1 {
+	/*Gives instructions for the formatting of Heading 1.*/
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #f1c9c9;
+	padding: 1px;
+	text-align: center;
+	text-transform: uppercase;
+	/*Specifies the display of the heading's letters, such as making them all lowercase, or all uppercase.*/
+	color: #AE6B7A;
+}
+
+h2 {
+	/*Gives instructions for the formatting of Heading 2.*/
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #ca8e8e;
+	padding: 1px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFCCCC;
+}
+
+h3 {
+	/*Gives instructions for the formatting of Heading 3.*/
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	color: #856175;
+}
+
+p {
+	/*Gives instructions for the formatting of normal text.*/
+	font-family: Arial, Helvetica, sans-serif;
+	text-indent: 50px;
+	text-align: center;
+	letter-spacing: 1px;
+	/*Shows how much space is supposed to be between the letters.*/
+	color: #423832;
+}
+
+ul {
+	/*Gives instructions for the formatting of unnumbered lists.*/
+	font-family: Arial, Helvetica, sans-serif;
+	text-indent: 50px;
+	text-align: center;
+	letter-spacing: 1px;
+	color: #826067;
+}
+
+img {
+	/*Gives instructions for the formatting of images.*/
+	font-family: Arial, Helvetica, sans-serif;
+	display: block;
+	/*Those three lines of code...*/
+	margin-left: auto;
+	margin-right: auto;
+	/*....center out all of the images.*/
+	border: 8px solid #FFCCCC;
+}
